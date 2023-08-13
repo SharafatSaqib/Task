@@ -1,0 +1,106 @@
+.form-container {
+   display: flex;
+   justify-content: center;
+   
+   min-height: 100vh;
+ }
+ 
+ .form {
+  
+ 
+   padding: 20px;
+   border-radius: 8px;
+ 
+   max-width: 400px;
+   width: 100%;
+ }
+ .forms{
+   display: flex;
+   justify-content: space-between;
+ }
+ .form-field {
+   
+   margin-bottom: 20px;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+ 
+ input[type='text'],
+ input[type='number'] {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+ 
+ .error {
+   color: red;
+   font-size: 14px;
+   margin-top: 5px;
+ }
+ 
+ .checkbox-container {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+ }
+ 
+ .checkbox-label {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+ }
+ 
+ .submit-button-container {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .submit-button {
+   background-color:rgb(216, 216, 81);
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: background-color 0.2s;
+ }
+ 
+ .submit-button:hover {
+   background-color:rgb(31, 38, 133);
+ }
+ input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.search-bar {
+   position: relative;
+   margin-top: 10px;
+ }
+ 
+ .search-bar input[type="text"] {
+   padding: 5px 30px 5px 10px;
+   width: 100%;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+ 
+ .search-icon {
+   position: absolute;
+   top: 50%;
+   right: 380px;
+   transform: translateY(-50%);
+   cursor: pointer;
+ }
+ .search-bar input[type="text"]::placeholder {
+   padding: 5px 30px 5px 10px;
+  width: 100%;
+ 
+  border-radius: 5px;
+ }
